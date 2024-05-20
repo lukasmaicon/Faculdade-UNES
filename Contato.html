@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/icon-faculdade.png" />
+    <title>Faculdade UNES</title>
+  </head>
+  <body>
+    <div class="container"><div class="btn"></div>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="Quem somos.html">Quem somos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="Contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="./img/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="Quem somos.html">Quem somos</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="Contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="index-caixa">
+      <div class="index">
+        <h1>Entre em contato</h1>
+        <br />
+        <p>
+          Estamos ansiosos para ouvir de você! Se você tiver alguma dúvida,
+          quiser saber mais sobre nossos programas acadêmicos, ou estiver
+          interessado em explorar oportunidades de colaboração, não deixe de
+          entrar em contato conosco. Nossa equipe dedicada está pronta para
+          ajudá-lo e fornecer as informações e suporte necessários para ajudá-lo
+          em sua jornada educacional.
+          <strong>Entre em contato conosco hoje mesmo</strong> e descubra como
+          podemos ajudá-lo a alcançar seus objetivos acadêmicos e profissionais.
+        </p>
+        <br /><br />
+        <hr />
+        <br /><br />
+        <form>
+          Seu e-mail:<br />
+          <input type="text" name="login" /><br /><br />
+          Interesses:<br />
+          <input type="checkbox" name="Interesses" /> Matrícula <br />
+          <input type="checkbox" neme="interesses" /> Informação <br /><br />
+          Estado:<br />
+          <select>
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="sc">SC</option>
+            <option value="rj">RJ</option></select
+          ><br /><br />
+          Descrição: <br />
+          <textarea></textarea> <br />
+          <input type="submit" value="Enviar" />
+        </form>
+        <br />
+        <footer>Todos os direitos reservados</footer>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
